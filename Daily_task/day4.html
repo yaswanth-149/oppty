@@ -4,80 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Audio and Video Attributes</title>
+    <style>
+      section {
+        margin: 40px;
+        border: 3px solid black;
+        border-radius: 10px;
+        background-color: aliceblue;
+      }
+    </style>
   </head>
   <body>
-    <!-- Audio Section -->
-    <section>
-      <h2>Audio Section</h2>
+    <center>
+      <section>
+        <h2>Audio Section</h2>
 
-      <div>
-        <h3>Autoplay Attribute</h3>
-        <audio controls autoplay muted>
-          <source src="../audios/believer.mp3" type="audio/mp3" />
-        </audio>
-      </div>
+        <div>
+          <h3>Autoplay Attribute</h3>
+          <audio controls autoplay muted>
+            <source src="../audios/believer.mp3" type="audio/mp3" />
+          </audio>
+        </div>
+        <hr />
+        <div>
+          <h3>Loop Attribute</h3>
+          <audio controls loop>
+            <source src="../audios/Cloud Computing.mp3" type="audio/mp3" />
+          </audio>
+        </div>
+        <hr />
+        <div>
+          <h3>Muted Attribute</h3>
+          <audio controls autoplay muted>
+            <source src="../audios/believer.mp3" type="audio/mp3" />
+          </audio>
+        </div>
+        <hr />
+        <div>
+          <h3>Preload Attribute</h3>
+          <audio controls preload="auto">
+            <source
+              src="https://samplelib.com/mp4/sample-5s.mp4"
+              type="audio/mp3"
+            />
+          </audio>
+        </div>
+      </section>
 
-      <div>
-        <h3>Loop Attribute</h3>
-        <audio controls loop>
-          <source src="../audios/Cloud Computing.mp3" type="audio/mp3" />
-        </audio>
-      </div>
+      <hr />
 
-      <div>
-        <h3>Muted Attribute</h3>
-        <audio controls autoplay muted>
-          <source src="../audios/believer.mp3" type="audio/mp3" />
-        </audio>
-      </div>
+      <section>
+        <h2>Video Section</h2>
 
-      <div>
-        <h3>Preload Attribute</h3>
-        <audio controls preload="auto">
-          <source
-            src="https://samplelib.com/mp4/sample-5s.mp4"
-            type="audio/mp3"
-          />
-        </audio>
-      </div>
-    </section>
-
-    <hr />
-
-    <!-- Video Section -->
-    <section>
-      <h2>Video Section</h2>
-
-      <div>
-        <h3>Autoplay Attribute</h3>
-        <video autoplay muted width="400">
-          <source src="../videos/Robotics.mp4" type="video/mp4" />
-        </video>
-      </div>
-
-      <div>
-        <h3>Loop Attribute</h3>
-        <video controls loop width="400">
-          <source src="../videos/Cloud Computing.mp4" type="video/mp4" />
-        </video>
-      </div>
-
-      <div>
-        <h3>Muted Attribute</h3>
-        <video controls muted width="400">
-          <source src="../videos/Information Technology.mp4" type="video/mp4" />
-        </video>
-      </div>
-
-      <div>
-        <h3>Poster Attribute</h3>
-        <video controls poster="../images/ai.jpg" width="400">
-          <source
-            src="../videos/Artificial Intelligence .mp4"
-            type="video/mp4"
-          />
-        </video>
-      </div>
-    </section>
+        <div>
+          <h3>Autoplay Attribute</h3>
+          <video autoplay muted width="400">
+            <source src="../videos/Robotics.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <hr />
+        <div>
+          <h3>Loop Attribute</h3>
+          <video controls loop width="400">
+            <source src="../videos/Cloud Computing.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <hr />
+        <div>
+          <h3>Muted Attribute</h3>
+          <video controls muted width="400">
+            <source
+              src="../videos/Information Technology.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <hr />
+        <div>
+          <h3>Poster Attribute</h3>
+          <video controls poster="../images/ai.jpg" width="400">
+            <source
+              src="../videos/Artificial Intelligence .mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </section>
+    </center>
   </body>
 </html>
